@@ -4,7 +4,7 @@
 .sidebarblah {
     width: 160px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
+    z-index: auto; /* Stay on top */
     top: 1px; /* Stay at the top */
     left: 0px;
     background-color: #D3D3D3; /* Black */
