@@ -26,3 +26,8 @@
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
 }
+
+.nathan_avatar {
+    width: 150px;
+    border-radius: 50%;
+}
