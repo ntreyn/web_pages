@@ -34,3 +34,12 @@
     object-fit: scale-down;
     border-radius: 50%;
 }
+
+.project_box {
+    left: 20px;
+    top: 20px;
+    height: 200px;
+    width: 500px;
+    background-color:#ccc;
+    border:1px solid #ff0000;
+}
