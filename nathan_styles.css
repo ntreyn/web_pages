@@ -1,7 +1,7 @@
 
 
 /* The sidebar menu */
-.sidenav {
+.sidebar {
     width: 160px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
@@ -13,7 +13,7 @@
 }
 
 /* The navigation menu links */
-.sidenav a {
+.sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -25,4 +25,23 @@
 .main {
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
+}
+
+
+.column {
+    float: left;
+}
+  
+.left {
+    width: 25%;
+}
+  
+.right {
+    width: 75%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
