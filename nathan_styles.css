@@ -47,4 +47,5 @@
 
 .project_box img {
     height: 100%;
+    object-fit: scale-down;
 }
