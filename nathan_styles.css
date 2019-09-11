@@ -35,17 +35,41 @@
     border-radius: 50%;
 }
 
+.project_container {
+    text-align: center;
+}
+
 .project_box {
-    left: 20px;
-    top: 20px;
-    bottom: 20px;
-    height: 200px;
+    height: 150px;
     width: 80%;
-    background-color:#ccc;
-    border:1px solid #ff0000;
+    background-color:#ddd;
+    display: inline-block;
+    text-align: left;
+    margin: 20px 0px 0px 0px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.project_box:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:#eee;
 }
 
 .project_box img {
     height: 100%;
     object-fit: scale-down;
 }
+
+.project_desc {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.project_desc h3 {
+    margin: 10px 0px 0px 10px;
+    color: #353535;
+}
+
+.project_desc p {
+    margin: 20px 0px 0px 20px;
+}
+
